@@ -11,8 +11,8 @@ Teacher t[]= new Teacher[n];
 for(int i=0;i<n;i++)
 {
 t[i]=new Teacher();
-t[i].getinfo();
-t[i].getinfo1();
+//t[i].getinfo();
+//t[i].getinfo1();
 
 }
 System.out.println("...............................");
@@ -32,7 +32,7 @@ int empid;
 String name;
 double salary;
 String address;
-void getinfo()
+Employee()
 {
 Scanner sc=new Scanner(System.in);
 System.out.println("enter employee id:");
@@ -52,7 +52,7 @@ class Teacher extends Employee
 {
 String department;
 String subject;
-void getinfo1()
+Teacher()
 {
 Scanner sc4=new Scanner(System.in);
 System.out.println("enter  department:");
@@ -74,7 +74,6 @@ System.out.println("...............................");
 }
 
 }
-
 
 
 
