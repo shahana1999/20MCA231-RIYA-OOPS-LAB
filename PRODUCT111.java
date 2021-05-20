@@ -1,6 +1,6 @@
 package myproject;
 
-public class product {
+public class PRODUCT111{
 	int pcode;
 	String pname;
 	int price;
